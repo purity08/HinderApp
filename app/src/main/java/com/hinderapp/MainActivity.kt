@@ -1,7 +1,7 @@
 package com.hinderapp
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import androidx.appcompat.app.AppCompatActivity
 import com.hinderapp.ui.main.MainFragment
 
 class MainActivity : AppCompatActivity() {
@@ -14,5 +14,6 @@ class MainActivity : AppCompatActivity() {
                     .replace(R.id.container, MainFragment.newInstance())
                     .commitNow()
         }
+
     }
 }
