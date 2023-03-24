@@ -1,11 +1,11 @@
-package com.hinderapp
+package com.hinderapp.ui.activity
 
 import android.os.Bundle
-import androidx.appcompat.app.AppCompatActivity
+import androidx.fragment.app.FragmentActivity
+import com.hinderapp.R
 import com.hinderapp.ui.main.MainFragment
 
-class MainActivity : AppCompatActivity() {
-
+class MainActivity : FragmentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
@@ -14,6 +14,5 @@ class MainActivity : AppCompatActivity() {
                     .replace(R.id.container, MainFragment.newInstance())
                     .commitNow()
         }
-
     }
 }

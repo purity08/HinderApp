@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "891969490590",
+    "firebase_url": "https://hinder-6aba4-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "hinder-6aba4",
+    "storage_bucket": "hinder-6aba4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:891969490590:android:e355594f4cf435505eb58f",
+        "android_client_info": {
+          "package_name": "com.hinderapp.dev"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "891969490590-3rie3mdu4f4r3sfjefr7f28aqmtc86p7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBM91ta3udb0uxQZ_rbwNSN7whGM9JGnPk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "891969490590-3rie3mdu4f4r3sfjefr7f28aqmtc86p7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
